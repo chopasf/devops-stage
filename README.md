@@ -50,18 +50,20 @@ Prometheus
 
 ## 3. Структура проекта
 
+```text
 devops-stage/
 ├── deploy.sh
 ├── prometheus-values.yaml
 ├── README.md
 ├── k8s/
+│   ├── namespace.yaml
 │   ├── kustomization.yaml
 │   ├── gateway.yaml
 │   ├── app.yaml
 │   └── httproute.yaml
 └── logging/
     └── filebeat.yaml
-
+```
 ## 4. Подготовка Kubernetes
 
 Кластер создавался с помощью kubeadm:

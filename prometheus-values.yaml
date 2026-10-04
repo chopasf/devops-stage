@@ -1,0 +1,17 @@
+prometheus:
+  prometheusSpec:
+    retention: 1d
+    serviceMonitorNamespaceSelector: {}
+    resources:
+      requests:
+        cpu: 200m
+        memory: 512Mi
+      limits:
+        cpu: 500m
+        memory: 1Gi
+
+grafana:
+  enabled: false
+
+alertmanager:
+  enabled: false

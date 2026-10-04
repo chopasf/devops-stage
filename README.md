@@ -18,6 +18,7 @@
 
 ## 2. Архитектура
 
+```text
 Client
   |
   | HTTP
@@ -47,7 +48,7 @@ Nginx Pod
 Prometheus
     |
     +--> node-exporter
-
+```
 ## 3. Структура проекта
 
 ```text
